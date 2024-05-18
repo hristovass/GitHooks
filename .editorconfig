@@ -5,8 +5,8 @@ root = true
 # Code style rules
 dotnet_style_qualification_for_field = true:suggestion
 dotnet_style_qualification_for_property = true:suggestion
-#dotnet_style_qualification_for_method = true:suggestion
-#dotnet_style_qualification_for_event = true:suggestion
+dotnet_style_qualification_for_method = true:suggestion
+dotnet_style_qualification_for_event = true:suggestion
 
 # Formatting rules
 #dotnet_separate_import_directive_groups = true
