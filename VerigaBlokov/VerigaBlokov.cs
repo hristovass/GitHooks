@@ -1,15 +1,15 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+
+using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Diagnostics;
-using Newtonsoft.Json;
-
 
 
 namespace VerigaBlokov
@@ -47,7 +47,7 @@ namespace VerigaBlokov
 
         }
         // ja refreshira sodrzinata
-        private void rtbBlockchainLog()
+        public void rtbBlockchainLog()
         {
             if (rtbBlockChain.InvokeRequired)
                 rtbBlockChain.Invoke(new refreshCallback(rtbBlockchainLog), new object[] { });
@@ -61,7 +61,7 @@ namespace VerigaBlokov
             }
         }
         // TcpListener asynchronous operation to accept an incoming connection attempt.
-        private void ListenForConnections(string lPort)
+        public void ListenForConnections(string lPort)
         {
             btStart.Enabled = false;
             tbLocalPort.Enabled = false;

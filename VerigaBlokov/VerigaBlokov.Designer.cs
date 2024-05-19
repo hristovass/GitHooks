@@ -143,15 +143,15 @@ namespace VerigaBlokov
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tbLocalPort;
-        private System.Windows.Forms.RichTextBox rtbBlockChain;
-        private System.Windows.Forms.RichTextBox rtbLog;
-        private System.Windows.Forms.Button btStart;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btConnect;
-        private System.Windows.Forms.TextBox tbRemotePort;
-        private System.Windows.Forms.Button btMine;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.TextBox tbLocalPort;
+        public System.Windows.Forms.RichTextBox rtbBlockChain;
+        public System.Windows.Forms.RichTextBox rtbLog;
+        public System.Windows.Forms.Button btStart;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Button btConnect;
+        public System.Windows.Forms.TextBox tbRemotePort;
+        public System.Windows.Forms.Button btMine;
     }
 }
 
