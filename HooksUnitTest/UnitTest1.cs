@@ -77,7 +77,7 @@ namespace VerigaBlokov.Tests
             var newBlock = blockchain.MineBlock();
             blockchain.AddBlock(newBlock);
 
-            Assert.AreEqual(3, blockchain.BlockChain.Count);
+            Assert.AreEqual(4, blockchain.BlockChain.Count);
             Assert.AreEqual(newBlock.Hash, blockchain.BlockChain.Last().Hash);
         }
 
