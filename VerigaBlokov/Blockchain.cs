@@ -21,7 +21,7 @@ namespace VerigaBlokov
 
 
         public static int CurrentDifficulty = 2;
-        public static int diffAdjustInterval = 10; // The difficulty adjustment interval tells how often the difficulty will change.
+        public static int diffAdjustInterval = 10; //  The difficulty adjustment interval tells how often the difficulty will change.
         public static int blockGenerationInterval = 10; // The block generation interval tells in what time a new block can be found, every 10 seconds we can insert a new block into the chain
 
         //private Stopwatch timer = new Stopwatch();
